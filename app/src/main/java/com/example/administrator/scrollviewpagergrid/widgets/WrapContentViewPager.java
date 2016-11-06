@@ -9,13 +9,13 @@ import android.view.View;
  * Created by chenliu on 2016/11/6 0006<br/>.
  * 描述：
  */
-public class WrapContentHeightViewPager extends ViewPager {
+public class WrapContentViewPager extends ViewPager {
 
-    public WrapContentHeightViewPager(Context context) {
+    public WrapContentViewPager(Context context) {
         super(context);
     }
 
-    public WrapContentHeightViewPager(Context context, AttributeSet attrs) {
+    public WrapContentViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 

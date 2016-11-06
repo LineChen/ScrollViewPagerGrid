@@ -2,6 +2,7 @@
 <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     android:orientation="vertical">
 
     <LinearLayout
@@ -15,7 +16,7 @@
             android:background="#ff0"
             />
 
-        <com.example.administrator.scrollviewpagergrid.widgets.WrapContentHeightViewPager
+        <com.example.administrator.scrollviewpagergrid.widgets.WrapContentViewPager
             android:id="@+id/viewpager"
             android:background="#0f0"
             android:layout_width="match_parent"
